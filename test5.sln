@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BokConverter", "BokConverter\BokConverter.csproj", "{3004918B-43B6-2E75-3B0F-9DA6F51D54BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BokConverterGUI", "BokConverter\BokConverterGUI.csproj", "{320C824D-9E6B-4CE2-7C78-08D3EA22E1B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3004918B-43B6-2E75-3B0F-9DA6F51D54BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3004918B-43B6-2E75-3B0F-9DA6F51D54BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3004918B-43B6-2E75-3B0F-9DA6F51D54BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3004918B-43B6-2E75-3B0F-9DA6F51D54BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320C824D-9E6B-4CE2-7C78-08D3EA22E1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320C824D-9E6B-4CE2-7C78-08D3EA22E1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320C824D-9E6B-4CE2-7C78-08D3EA22E1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320C824D-9E6B-4CE2-7C78-08D3EA22E1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {711080B6-2668-4EC3-812F-8161662E2078}
+	EndGlobalSection
+EndGlobal

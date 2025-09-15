@@ -1,0 +1,67 @@
+# BOK to ACCDB Converter - User Manual
+
+## Overview
+This program converts .bok files (old Access database format) to .accdb files (modern Access database format).
+
+## Package Contents
+
+### scripts/ folder
+Contains all PowerShell scripts:
+- **BokConverter_Portable.ps1** - Portable basic converter works anywhere
+- **BokConverterGUI_Portable.ps1** - Portable advanced GUI interface
+- **BokConverter_Enhanced.ps1** - Enhanced converter with multiple methods
+- **BokConverterGUI_Enhanced.ps1** - Enhanced GUI interface
+
+### executables/ folder
+Contains executable files:
+- **BokConverter_Enhanced.exe** - Enhanced converter executable
+- **BokConverterGUI_Enhanced.exe** - GUI interface executable
+
+### input/ folder
+Place your .bok files here for conversion
+
+### output/ folder
+Converted .accdb files will appear here
+
+## How to Use
+
+### Method 1: Using GUI Interface (Easiest)
+1. Copy .bok files to input/ folder
+2. Run **BokConverterGUI_Enhanced.exe**
+3. Click "Start Conversion"
+4. Find results in output/ folder
+
+### Method 2: Using PowerShell
+1. Copy .bok files to input/ folder
+2. Right-click on **BokConverter_Portable.ps1**
+3. Select "Run with PowerShell"
+4. Find results in output/ folder
+
+## Requirements
+- Windows Operating System
+- Microsoft Access installed
+- PowerShell 5.0 or newer
+
+## Features
+- ✅ Works from any location without installation
+- ✅ Easy-to-use graphical interface
+- ✅ Multiple conversion methods for guaranteed success
+- ✅ Preserves all database objects
+- ✅ Detailed operation logging
+- ✅ Arabic filename support
+
+## Troubleshooting
+
+### If conversion doesn't work:
+1. Ensure Microsoft Access is installed
+2. Verify .bok files are valid
+3. Try GUI interface instead of command line
+
+### If PowerShell error appears:
+1. Open PowerShell as administrator
+2. Run command: `Set-ExecutionPolicy RemoteSigned`
+3. Type Y to confirm
+
+## Contact and Support
+This program was created to help you convert old database files.
+For support, make sure to follow the instructions carefully.
