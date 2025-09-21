@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application>
+    <name>BOK to ACCDB Converter</name>
+    <version>1.0.0</version>
+    <description>Enhanced BOK to ACCDB Converter with GUI support for professional database conversion.</description>
+    <author>Osaid Haj & Aziz Hashlamoun</author>
+    <copyright>Copyright © 2025 Osaid Haj & Aziz Hashlamoun</copyright>
+    <icon>icon.ico</icon>
+    <file>BokConverterGUI_Enhanced.ps1</file>
+    <minimumOSVersion>Windows 10</minimumOSVersion>
+    <supportedArchitectures>
+        <architecture>x86</architecture>
+        <architecture>x64</architecture>
+    </supportedArchitectures>
+</application>
