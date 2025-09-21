@@ -50,3 +50,7 @@ ps2exe>=1.0.0
 # pip install ps2exe (إذا كنت تستخدم Python)
 # أو تثبيت PS2EXE module في PowerShell:
 # Install-Module -Name ps2exe -Scope CurrentUser
+
+## المطورون / Developers:
+# Osaid Haj & Aziz Hashlamoun
+# © 2025 جميع الحقوق محفوظة

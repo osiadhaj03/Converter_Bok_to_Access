@@ -1,0 +1,118 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PowerShell
+*.ps1xml
+
+# Build outputs
+dist/*.exe
+dist/*.msi
+dist/*.zip
+!dist/.gitkeep
+!dist/README_للتوزيع.txt
+!dist/Quick_Setup.bat
+!dist/Install_Requirements.ps1
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE/Editor files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NSIS build files
+installer/*.exe
+installer/*.log
+build/*.log
+
+# Local configuration files
+config.local.*
+settings.local.*
+
+# Test files
+test/
+tests/
+*.test.ps1
+
+# Personal files
+personal/
+private/
+my_*/
+
+# Cache directories
+cache/
+.cache/
+node_modules/
+packages/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+
+# Package files
+*.deb
+*.rpm
+*.msi
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

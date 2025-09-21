@@ -47,4 +47,4 @@
 - For technical issues: Check troubleshooting section in user manual
 
 ---
-*آخر تحديث / Last Updated: سبتمبر 2024 / September 2024*
+*آخر تحديث / Last Updated: سبتمبر 2025 / September 2025*

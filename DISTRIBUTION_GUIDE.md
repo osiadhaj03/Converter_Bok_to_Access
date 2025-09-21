@@ -69,3 +69,8 @@ cd "BokConverter-Distribution\scripts"
 **`d:\Converter_Bok_to_Access\BokConverter-Distribution\dist\BokConverterGUI_Enhanced.exe`**
 
 يمكنك توزيع هذا الملف مباشرة ولن يحتاج المستخدمون إلى PowerShell أو أي إعدادات إضافية.
+
+---
+
+**المطورون:** أسيد حاج (Osaid Haj) وعزيز هشلمون (Aziz Hashlamoun)  
+**© 2025 جميع الحقوق محفوظة**

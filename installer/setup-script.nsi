@@ -14,10 +14,10 @@ RequestExecutionLevel admin
 VIProductVersion "1.0.0.0"
 VIAddVersionKey "ProductName" "Enhanced BOK to ACCDB Converter"
 VIAddVersionKey "ProductVersion" "1.0.0"
-VIAddVersionKey "CompanyName" "BOK Converter Team"
+VIAddVersionKey "CompanyName" "Osaid Haj & Aziz Hashlamoun"
 VIAddVersionKey "FileDescription" "Enhanced BOK to ACCDB Converter Installer"
 VIAddVersionKey "FileVersion" "1.0.0.0"
-VIAddVersionKey "LegalCopyright" "© 2024 BOK Converter Team"
+VIAddVersionKey "LegalCopyright" "© 2025 Osaid Haj & Aziz Hashlamoun"
 
 ; Interface Settings
 !define MUI_ABORTWARNING
@@ -74,7 +74,7 @@ Section "Enhanced BOK Converter" SecMain
     WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Enhanced BOK Converter" "UninstallString" "$INSTDIR\Uninstall.exe"
     WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Enhanced BOK Converter" "InstallLocation" "$INSTDIR"
     WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Enhanced BOK Converter" "DisplayIcon" "$INSTDIR\icon.ico"
-    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Enhanced BOK Converter" "Publisher" "BOK Converter Team"
+    WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Enhanced BOK Converter" "Publisher" "Osaid Haj & Aziz Hashlamoun"
     WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Enhanced BOK Converter" "DisplayVersion" "1.0.0"
     WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Enhanced BOK Converter" "NoModify" 1
     WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Enhanced BOK Converter" "NoRepair" 1

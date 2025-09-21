@@ -3,8 +3,8 @@
     <name>BOK to ACCDB Converter</name>
     <version>1.0.0</version>
     <description>Enhanced BOK to ACCDB Converter with GUI support for professional database conversion.</description>
-    <author>Your Name</author>
-    <copyright>Copyright © 2023 Your Name</copyright>
+    <author>Osaid Haj & Aziz Hashlamoun</author>
+    <copyright>Copyright © 2025 Osaid Haj & Aziz Hashlamoun</copyright>
     <icon>icon.ico</icon>
     <file>BokConverterGUI_Enhanced.ps1</file>
     <minimumOSVersion>Windows 10</minimumOSVersion>

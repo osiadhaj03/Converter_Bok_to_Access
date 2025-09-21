@@ -54,7 +54,7 @@ $ps2exeParams = @{
     noConsole = $true
     title = "Enhanced BOK Converter"
     description = "BOK to ACCDB File Converter"
-    company = "BOK Converter Team"
+    company = "Osaid Haj & Aziz Hashlamoun"
     product = "Enhanced BOK Converter"
     version = "1.0.0.0"
 }

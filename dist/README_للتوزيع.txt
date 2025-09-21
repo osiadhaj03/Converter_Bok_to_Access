@@ -68,5 +68,5 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 لا يوجد دعم فني مدفوع
 
 ---
-© 2024 BOK Converter Team
+© 2025 Osaid Haj & Aziz Hashlamoun
 إصدار: 1.0.0

@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 BOK Converter Team
+Copyright (c) 2025 Osaid Haj & Aziz Hashlamoun
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@ SOFTWARE.
 
 رخصة MIT
 
-حقوق الطبع والنشر (c) 2024 فريق محول BOK
+حقوق الطبع والنشر (c) 2025 أسيد حاج وعزيز هشلمون
 
 يُمنح إذن مجاني لأي شخص يحصل على نسخة
 من هذا البرنامج وملفات الوثائق المرتبطة ("البرنامج")، للتعامل
