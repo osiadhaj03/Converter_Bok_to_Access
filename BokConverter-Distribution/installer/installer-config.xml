@@ -1,0 +1,30 @@
+<installer-config>
+  <Application>
+    <Name>BOK to ACCDB Converter</Name>
+    <Version>1.0.0</Version>
+    <Publisher>Your Company Name</Publisher>
+    <URL>http://yourcompanywebsite.com</URL>
+    <DefaultDirName>{pf}\BOK to ACCDB Converter</DefaultDirName>
+    <DefaultGroupName>BOK to ACCDB Converter</DefaultGroupName>
+    <OutputDir>..\dist</OutputDir>
+    <OutputBaseFilename>BokConverterInstaller</OutputBaseFilename>
+    <Compression>lzma</Compression>
+    <SolidCompression>true</SolidCompression>
+  </Application>
+  <Files>
+    <File Source="..\src\BokConverterGUI_Enhanced.ps1" DestDir="{app}" />
+    <File Source="..\src\icon.ico" DestDir="{app}" />
+    <File Source="..\src\manifest.xml" DestDir="{app}" />
+  </Files>
+  <Icons>
+    <Icon>
+      <Name>BOK to ACCDB Converter</Name>
+      <FileName>icon.ico</FileName>
+      <WorkingDir>{app}</WorkingDir>
+      <ShortcutType>0</ShortcutType>
+    </Icon>
+  </Icons>
+  <Uninstall>
+    <UninstallDisplayIcon>icon.ico</UninstallDisplayIcon>
+  </Uninstall>
+</installer-config>

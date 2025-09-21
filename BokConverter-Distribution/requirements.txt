@@ -1,0 +1,52 @@
+# Enhanced BOK to ACCDB Converter - متطلبات النظام والتشغيل
+
+## متطلبات تشغيل البرنامج على الأجهزة الأخرى:
+
+### 1. متطلبات النظام الأساسية:
+# - Windows 10 أو أحدث (أو Windows 7 SP1 مع تحديثات)
+# - .NET Framework 4.5 أو أحدث (موجود افتراضياً في Windows الحديث)
+# - ذاكرة: 512 MB RAM كحد أدنى
+# - مساحة: 100 MB مساحة فارغة
+
+### 2. للتعامل مع ملفات Microsoft Access:
+# تحميل Microsoft Access Database Engine (مجاني):
+# الرابط: https://www.microsoft.com/en-us/download/details.aspx?id=54920
+# أو البحث عن: "Microsoft Access Database Engine 2016 Redistributable"
+
+### 3. إذا ظهرت مشاكل في PowerShell Execution Policy:
+# فتح PowerShell كمدير وتشغيل:
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+
+### 4. أدوات التطوير (للمطورين فقط):
+
+## PowerShell Modules المطلوبة لبناء البرنامج:
+ps2exe>=1.0.0
+
+## أدوات إنشاء الـ Installer (اختيارية):
+# NSIS (Nullsoft Scriptable Install System)
+# تحميل من: https://nsis.sourceforge.io/Download
+# أو تثبيت عبر Chocolatey: choco install nsis
+
+## Visual C++ Redistributable (قد يكون مطلوب في بعض الأجهزة القديمة):
+# Microsoft Visual C++ Redistributable for Visual Studio 2015-2022
+# الرابط: https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+### 5. أدوات مساعدة لتحسين الأداء (اختيارية):
+# Microsoft Office Access Database Engine 2016 (للملفات الكبيرة)
+# .NET Framework 4.8 (أحدث إصدار للأداء الأمثل)
+
+## ملاحظات مهمة:
+# - البرنامج لا يحتاج اتصال بالإنترنت للعمل
+# - جميع التبعيات مُضمنة في الـ EXE
+# - الملف التنفيذي آمن ولكن قد تظهر تحذيرات Windows SmartScreen
+# - لا يتم إرسال أي بيانات خارج الجهاز
+
+## روابط التحميل السريع:
+# 1. Access Database Engine: https://www.microsoft.com/en-us/download/details.aspx?id=54920
+# 2. .NET Framework 4.8: https://dotnet.microsoft.com/download/dotnet-framework/net48
+# 3. Visual C++ Redistributable: https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+## للمطورين - بناء البرنامج:
+# pip install ps2exe (إذا كنت تستخدم Python)
+# أو تثبيت PS2EXE module في PowerShell:
+# Install-Module -Name ps2exe -Scope CurrentUser
